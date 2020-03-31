@@ -22,8 +22,6 @@ function sum(number1, number2) {
 }
 ```
 
-62 caractères.
-
 L'appel de la fonction ne fait pas partie du comptage. Le nom de la fonction peut être modifié.
 
 #### Record - 12 caractères (plusieurs ex-aequo)
@@ -48,8 +46,6 @@ function compare(number1, number2) {
 }
 ```
 
-120 caractères.
-
 #### Record - 16 caractères (plusieurs ex-aequo)
 
 ```
@@ -71,8 +67,6 @@ function fight(attack) {
   }
 }
 ```
-
-172 caractères.
 
 #### Record - 47 caractères (bcalou)
 
@@ -101,8 +95,6 @@ function suite(quantity) {
   return result;
 }
 ```
-
-178 caractères.
 
 #### Challenger - 74 caractères (Guillaume R-L)
 
@@ -136,5 +128,3 @@ function getCaps(text) {
 #### Pas encore de challenger
 
 #### Le record sera dévoilé si vous descendez en dessous de 60 !
-
-226 caractères.
