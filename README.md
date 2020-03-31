@@ -26,6 +26,12 @@ function sum(number1, number2) {
 
 L'appel de la fonction ne fait pas partie du comptage. Le nom de la fonction peut être modifié.
 
+#### Record - 12 caractères (plusieurs ex-aequo)
+
+```
+f=(a,b)=>a+b
+```
+
 ### 2) C'est qui le patron ?
 
 Écrivez une fonction qui prend deux nombres en paramètre et retourne le plus grand des deux.
@@ -44,6 +50,12 @@ function compare(number1, number2) {
 
 120 caractères.
 
+#### Record - 16 caractères (plusieurs ex-aequo)
+
+```
+f=(a,b)=>a>b?a:b
+```
+
 ### 3) Pierre feuille ciseaux
 
 Écrivez une fonction qui prend en paramètre soit `pierre`, soit `feuille` soit `ciseaux` et qui renvoit la contre-attaque gagnante.
@@ -61,6 +73,12 @@ function fight(attack) {
 ```
 
 172 caractères.
+
+#### Record - 47 caractères (bcalou)
+
+```
+f=a=>({p:'feuille',c:'pierre',f:'ciseaux'}[a[0]])
+```
 
 ### 4) On monte en puissance
 
@@ -86,6 +104,14 @@ function suite(quantity) {
 
 178 caractères.
 
+#### Challenger - 74 caractères (Guillaume R-L)
+
+```
+s=n=>{number=1;r=[];for(i=0;i<n;i++){r.push(number);number*=2;}return r;}
+```
+
+#### Le record sera dévoilé si vous descendez en dessous de 50 !
+
 ### 5) Ça passe ou ça casse
 
 Écrivez une fonction qui récupère un texte pour en extraire uniquement les majuscules.
@@ -107,8 +133,8 @@ function getCaps(text) {
 }
 ```
 
+#### Pas encore de challenger
+
+#### Le record sera dévoilé si vous descendez en dessous de 60 !
+
 226 caractères.
-
-## CSS
-
-À venir !
