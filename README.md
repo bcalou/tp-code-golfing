@@ -96,13 +96,17 @@ function suite(quantity) {
 }
 ```
 
-#### Challenger - 74 caractères (Guillaume R-L)
+#### Challenger - 50 caractères (Jarce B)
 
 ```
-s=n=>{number=1;r=[];for(i=0;i<n;i++){r.push(number);number*=2;}return r;}
+s=q=>{n=1,r=[];while(q--&&r.push(n))n*=2;return r}
 ```
 
-#### Le record sera dévoilé si vous descendez en dessous de 50 !
+#### Record - 38 caractères (bcalou)
+
+```
+à venir !
+```
 
 ### 5) Ça passe ou ça casse
 
@@ -125,6 +129,14 @@ function getCaps(text) {
 }
 ```
 
-#### Pas encore de challenger
+#### Record sans expression régulière - 48 caractères (Nawel B & Quentin G)
 
-#### Le record sera dévoilé si vous descendez en dessous de 60 !
+```
+g=s=>s.split("").filter(c=>c<{}?c!=0:0).join("")
+```
+
+#### Record avec expression régulière - 29 caractères (Bastien P, ex-aequo bcalou)
+
+```
+s=t=>t.replace(/[a-z\s]/g,'')
+```
